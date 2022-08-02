@@ -17,6 +17,7 @@ body:
     id: image
     attributes:
       label: If you would like to add an image upload it here.
+      description:
     validations:
       required: true
   - type: checkboxes
