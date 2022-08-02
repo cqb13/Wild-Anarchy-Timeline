@@ -1,4 +1,7 @@
 name: "Timeline Suggestion"
+description: New events for the timline
+title: '[Timeline Suggestion]'
+labels: event
 body:
   - type: textarea
     id: title
