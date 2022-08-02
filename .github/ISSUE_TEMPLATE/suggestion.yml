@@ -1,7 +1,3 @@
-name: Timeline Suggestion
-description: Suggest something you would like to see added to the timeline.
-title: '[Timeline Suggestion] '
-labels: enhancement
 body:
   - type: textarea
     id: title
@@ -28,6 +24,6 @@ body:
             There is proof of this event that can be provided
             (screenshots / videos are best)
           required: true
-          - label: |
+        - label: |
             The information that is provided is acurate
           required: true
