@@ -13,13 +13,6 @@ body:
       description: A clear description of the event (A date must be included).
     validations:
       required: true
-  - type: textarea
-    id: image
-    attributes:
-      label: If you would like to add an image upload it here.
-      description:
-    validations:
-      required: true
   - type: checkboxes
     id: prerequisites
     attributes:
