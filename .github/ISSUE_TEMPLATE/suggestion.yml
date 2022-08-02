@@ -1,3 +1,4 @@
+name: "Timeline Suggestion"
 body:
   - type: textarea
     id: title
@@ -11,6 +12,13 @@ body:
     attributes:
       label: Describe the event
       description: A clear description of the event (A date must be included).
+    validations:
+      required: true
+  - type: textarea
+    id: image
+    attributes:
+      label: Image
+      description: If you would like to add an image upload it here.
     validations:
       required: true
   - type: checkboxes
