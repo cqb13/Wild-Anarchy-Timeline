@@ -8,6 +8,36 @@ body {
 	width: 100%;
 }
 
+.header {
+    background: rgb(73, 107, 190);
+    padding: 1rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.header_title {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer {
+    background: rgb(73, 107, 190);
+    padding: 1rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+svg.footer_icon {
+    height: 24px;
+    fill: #fff;
+}
+
 #loadingMessage {
 	position: fixed;
 	width: 100%;
