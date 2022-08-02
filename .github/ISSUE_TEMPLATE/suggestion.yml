@@ -1,0 +1,33 @@
+name: Timeline Suggestion
+description: Suggest something you would like to see added to the timeline.
+title: '[Timeline Suggestion] '
+labels: enhancement
+body:
+  - type: textarea
+    id: title
+    attributes:
+      label: The name of the event
+      description: A clear description and concise name that descibes your event.
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the event
+      description: A clear description of the event.
+    validations:
+      required: true
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Before submitting a suggestion
+      options:
+        - label: |
+            This wasn't already suggested and is not on the timeline
+            (I have checked all of the other suggestions)
+          required: true
+        - label: |
+            There is proof of this event that can be provided
+            (screenshots / videos are best)
+          required: true
+          - label: |
+            The information that is provided is acurate
+          required: true

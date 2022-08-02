@@ -7,16 +7,16 @@
 
 <hr />
 
-<h2>Additions format:</h2>
+<h2>What can be on the timeline:</h2>
 <pre>
-	{
-		"name": "The name of the event",
-		"description": "description of the event (leave blank if no description)",
-		"date": "8/2/22",
-		"links": [
-            ["leave blank if no links", "github.com/cqb13/Wild-Anarchy-Timeline"]
-        ] 
-	},
+Griefs         || has to be a large grief (New player huts do not count)
+New Groups     || Group has be active and around for more than a week
+Spawn Events   || Spawn events must be large and have over 10 players or multiple groups involved
+New Builds     || Bases, Spawn logos, etc (The build has to be either large or of great significance)
+Server Changes || Any big changes to the server (MC version updates, dupes, host changes, etc)
+
+*Note: Proof of the event (screenshots / videos are best) is required*
+*Note: Events without a date will not be added*
 </pre>
 
 <h2>Things to add:</h2>
