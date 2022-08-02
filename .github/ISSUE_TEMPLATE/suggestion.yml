@@ -23,7 +23,7 @@ body:
       label: Image
       description: If you would like to add an image upload it here.
     validations:
-      required: true
+      required: false
   - type: checkboxes
     id: prerequisites
     attributes:
