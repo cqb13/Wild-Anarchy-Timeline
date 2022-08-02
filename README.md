@@ -3,6 +3,8 @@
   <img src="WAT.png" alt="logo" width="20%"/>
   <h1>Wild Anarchy Timeline</a></h1>
   <p>A place to learn about the history of Wild Anarchy.</p>
+
+  [Check out the timeline here!](https://cqb13.github.io/Wild-Anarchy-Timeline/)
 </div>
 
 <hr />
