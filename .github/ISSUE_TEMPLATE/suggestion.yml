@@ -4,11 +4,19 @@ body:
     attributes:
       label: The name of the event
       description: A clear description and concise name that descibes your event.
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:
       label: Describe the event
-      description: A clear description of the event.
+      description: A clear description of the event (A date must be included).
+    validations:
+      required: true
+  - type: textarea
+    id: image
+    attributes:
+      label: If you would like to add an image upload it here.
     validations:
       required: true
   - type: checkboxes
