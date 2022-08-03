@@ -1,11 +1,12 @@
 // settings
-var COLOR_BY_YEAR = true; /* make all labels for the same year the same
+var COLOR_BY_MONTH = true; /* make all labels for the same year the same
 							 color; overwrites RANDOM_COLORS */
-var RANDOM_COLORS = true; // randomize color of timeline labels
+var RANDOM_COLORS = false; // randomize color of timeline labels
 var DEFAULT_COLOR = 0; // only works if RANDOM_COLORS is false
 var RANDOM_SIDES = false; // randomize side timeline events are on
 var CHRONOLOGICAL = true; // false for oldest first; true for newest first
-var DIVIDERS = true; // false for no year dividers; true for year dividers
+var YEAR_DIVIDERS = true; // false for no year dividers; true for year dividers
+var MONTH_DIVIDERS = true; // false for no month dividers; true for month dividers
 var DATA_FILES = ["events/2022/June.json", "events/2022/July.json", "events/2022/August.json"]; 
 
 // https://stackoverflow.com/questions/3514784/what-is-the-best-way-to-detect-a-mobile-device-in-jquery
@@ -24,7 +25,7 @@ function finishedLoading()
 	document.body.removeChild(document.getElementById("loadingMessage"));
 }
 
-var colors = ["#ca5454", "#e8a040", "#fcdd75", "#7e92b9", "#ebc59c"];
+var colors = ["#ca5454", "#e8a040", "#fcdd75", "#ebc59c"];
 
 // get a random integer in the range [0, max)
 function randint(max) 
@@ -85,6 +86,10 @@ function loadedData(data)
 	var counter = 0;
 
 	var yearCounter = -1;
+	var monthCounter = -1;
+
+	// year color here bc why not
+	var yearColor = "rgb(73, 107, 190)"
 
 	// change date strings to date objects
 	data = convertDates(data);
@@ -98,6 +103,7 @@ function loadedData(data)
 	container.append("<div id=\"timeline\"></div>");
 
 	var lastYear = null;
+	var lastMonth = null;
 
 	var maxDateWidth = 99999;
 
@@ -142,33 +148,45 @@ function loadedData(data)
 		}
 		links += "</h3>";
 
-		dividerElem = false;
+		dividerYearElem = false;
+		dividerMonthElem = false;
 		// add generated html code to document
-		if (e["date"].getFullYear() != lastYear)
-		{
+		// month dividers
+		if ( e["sDate"].replace(/[0-9 ,]/gi, '') != lastMonth){
 			yearCounter += 1;
-			lastYear = e["date"].getFullYear();	
+			monthCounter += 1;
+			lastMonth = e["sDate"].replace(/[0-9 ,]/gi, '')
 			var dividerColor = randColor();
 
-			if (COLOR_BY_YEAR)
-			{
-				dividerColor = colors[yearCounter % colors.length];
+			if (COLOR_BY_MONTH){
+				dividerColor = colors[monthCounter % colors.length];
 			}
 
-			var dividerElem = "<div class=\"divider level\" style=\"" + 
-				"background: " + dividerColor + "\" id=\"" + 
+			var dividerMonthElem = "<div class=\"divider level\" style=\"" +
+			"background: " + dividerColor + "\" id=\"" + 
+			e["sDate"].replace(/[0-9 ,]/gi, '') + "\">" + 
+			e["sDate"].replace(/[0-9 ,]/gi, '') + "</div>";
+		}
+
+		// year dividers
+		if (e["date"].getFullYear() != lastYear) {
+			yearCounter += 1;
+			lastYear = e["date"].getFullYear();	
+
+			var dividerYearElem = "<div class=\"divider level\" style=\"" + 
+				"background: " + yearColor + "\" id=\"" + 
 				lastYear + "\">" +
 				lastYear + "</div>";
 		}
 
 		var eventColor = randColor();
 
-		if (COLOR_BY_YEAR)
-		{
-			eventColor = colors[yearCounter % colors.length];
+		if (COLOR_BY_MONTH) {
+			eventColor = colors[monthCounter % colors.length];
 		}
 
 		if (e["description"] == "" && e["links"].length == 0)
+		//TODO: add an id to each event box that can be used to search for it (date or month)
 		{
 			elem = "<div class=\"level event smallEvent\">" + 
 					"<div class=\"infoDot\" style=\"background : " +
@@ -178,7 +196,7 @@ function loadedData(data)
 					eventColor + "\">" +
 					e["sDate"] + "</div>" + 
 					"</div>" + 
-					"<div class=\"info " + dataClass + "\">" + 
+					"<div class=\"info " + dataClass + "\" id=" + e["sDate"] + "\">" + 
 					"<h1>" + e["name"] + "</h1>" +
 					"</div>" +
 					"</div>";
@@ -193,7 +211,7 @@ function loadedData(data)
 					eventColor + "\">" +
 					e["sDate"] + "</div>" + 
 					"</div>" + 
-					"<div class=\"info " + dataClass + "\">" + 
+					"<div class=\"info " + dataClass + "\" id=" + e["sDate"] + "\">" + 
 					"<h1>" + e["name"] + "</h1>" +
 					"<p>" + e["description"] + "</p>" + 
 					links +
@@ -201,9 +219,12 @@ function loadedData(data)
 					"</div>";
 		}
 
-		if (DIVIDERS && dividerElem !== false)
-		{
-			container.append(dividerElem);
+		if (YEAR_DIVIDERS && dividerYearElem !== false){
+			container.append(dividerYearElem);
+		}
+
+		if (MONTH_DIVIDERS && dividerMonthElem !== false){
+			container.append(dividerMonthElem);
 		}
 
 		elem = $(elem)

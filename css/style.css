@@ -14,13 +14,18 @@ body {
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .header_title {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.search_box {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	width: 100%;
 }
 
 .footer {
