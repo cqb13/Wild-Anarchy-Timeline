@@ -7,12 +7,21 @@
     <link rel="icon" href="WAT.png">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/mobile.css" rel="stylesheet">
+    <link href="css/sideBar.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,500" rel="stylesheet">
   </head>
   <div class="header">
+    <span id="open_side" style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; Nav Bar</span>
     <div class="header_title">
       <h1>Wild Anarchy Timeline</h1>
-      <input class="search_box" type="text" placeholder="Search The Timeline (not working yet)">
+      <input class="search_box" id="search_box" type="text" placeholder="Search The Timeline (Not working yet)">
+    </div>
+  </div>
+
+
+  <div id="side_bar" class="side_nav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div id="months_nav">
     </div>
   </div>
 
@@ -33,6 +42,7 @@
       </div>
     </div>
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/site-functions.js"></script>
     <script type="text/javascript" src="js/general.js"></script>
     </body>
 </html>

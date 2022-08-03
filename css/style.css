@@ -13,8 +13,12 @@ body {
     padding: 1rem;
     color: #fff;
     display: flex;
-    align-items: center;
     font-size: 30px;
+}
+
+.open_side{
+	position: absolute;
+
 }
 
 .header_title {

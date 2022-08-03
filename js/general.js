@@ -81,6 +81,7 @@ function convertDates(data)
 function loadedData(data)
 {
 	var container = $("#container");
+	var navList = $("#months_nav")
 
 	// counter to make sure no more than 2 adjacent events go to same side
 	var counter = 0;
@@ -151,7 +152,7 @@ function loadedData(data)
 		dividerYearElem = false;
 		dividerMonthElem = false;
 		// add generated html code to document
-		// month dividers
+		// month dividers and month side bar navigation links
 		if ( e["sDate"].replace(/[0-9 ,]/gi, '') != lastMonth){
 			yearCounter += 1;
 			monthCounter += 1;
@@ -166,6 +167,12 @@ function loadedData(data)
 			"background: " + dividerColor + "\" id=\"" + 
 			e["sDate"].replace(/[0-9 ,]/gi, '') + "\">" + 
 			e["sDate"].replace(/[0-9 ,]/gi, '') + "</div>";
+
+			// TODO: need to make it be able to tell the difference between years (goes to the months in a specific year)
+			// adds new months to navigation list
+			navElem = "<a href=#" + e["sDate"].replace(/[0-9 ,]/gi, '') + "\>" + 
+			 e["sDate"].replace(/[0-9 ,]/gi, '') + "\</a>";
+
 		}
 
 		// year dividers
@@ -226,6 +233,11 @@ function loadedData(data)
 		if (MONTH_DIVIDERS && dividerMonthElem !== false){
 			container.append(dividerMonthElem);
 		}
+
+		navElem = $(navElem)
+
+		navList.append(navElem)
+
 
 		elem = $(elem)
 
