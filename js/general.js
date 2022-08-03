@@ -6,7 +6,7 @@ var DEFAULT_COLOR = 0; // only works if RANDOM_COLORS is false
 var RANDOM_SIDES = false; // randomize side timeline events are on
 var CHRONOLOGICAL = true; // false for oldest first; true for newest first
 var DIVIDERS = true; // false for no year dividers; true for year dividers
-var DATA_FILES = ["events.json"]; 
+var DATA_FILES = ["events/2022/June.json", "events/2022/July.json", "events/2022/august.json"]; 
 
 // https://stackoverflow.com/questions/3514784/what-is-the-best-way-to-detect-a-mobile-device-in-jquery
 var isMobile = false, windowDim; //initiate as false

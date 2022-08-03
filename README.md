@@ -16,8 +16,10 @@ New Groups     || Group has be active and around for more than a week
 Spawn Events   || Spawn events must be large and have over 10 players or multiple groups involved
 New Builds     || Bases, Spawn logos, etc (The build has to be either large or of great significance)
 Server Changes || Any big changes to the server (MC version updates, dupes, host changes, etc)
+<br>
 
 *Note: Proof of the event (screenshots / videos are best) is required*
+
 *Note: Events without a date will not be added*
 </pre>
 
