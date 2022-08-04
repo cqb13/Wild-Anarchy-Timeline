@@ -8,6 +8,10 @@ body {
 	width: 100%;
 }
 
+::-webkit-scrollbar {
+	width: 0px;
+}
+
 .header {
     background: rgb(73, 107, 190);
     padding: 1rem;
@@ -16,20 +20,9 @@ body {
     font-size: 30px;
 }
 
-.open_side{
-	position: absolute;
-
-}
-
-.header_title {
+.headerTitle {
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.search_box {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 20px;
-	width: 100%;
 }
 
 .footer {
@@ -42,7 +35,7 @@ body {
     font-size: 16px;
 }
 
-svg.footer_icon {
+svg.footerIcon {
     height: 24px;
     fill: #fff;
 }

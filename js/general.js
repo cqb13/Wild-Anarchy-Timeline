@@ -9,6 +9,15 @@ var YEAR_DIVIDERS = true; // false for no year dividers; true for year dividers
 var MONTH_DIVIDERS = true; // false for no month dividers; true for month dividers
 var DATA_FILES = ["events/2022/June.json", "events/2022/July.json", "events/2022/August.json"]; 
 
+function openNav() {
+    document.getElementById("sideBar").style.width = "250px";
+}
+  
+function closeNav() {
+	document.getElementById("sideBar").style.width = "0";
+}
+
+
 // https://stackoverflow.com/questions/3514784/what-is-the-best-way-to-detect-a-mobile-device-in-jquery
 var isMobile = false, windowDim; //initiate as false
 // device detection
@@ -81,7 +90,7 @@ function convertDates(data)
 function loadedData(data)
 {
 	var container = $("#container");
-	var navList = $("#months_nav")
+	var navList = $("#monthsNav")
 
 	// counter to make sure no more than 2 adjacent events go to same side
 	var counter = 0;

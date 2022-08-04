@@ -27,5 +27,4 @@ Server Changes || Any big changes to the server (MC version updates, dupes, host
 <pre>
 Search bar
 Categories for events that can be searched for (griefs, group creations, server updates, etc)
-Index on side (list of all months / years, pressing a year or month will take you to that category)
 </pre>
