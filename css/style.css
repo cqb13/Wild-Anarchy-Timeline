@@ -12,6 +12,14 @@ body {
 	width: 0px;
 }
 
+.topBar{
+	background-color: rgb(73, 107, 190);
+	padding: 1rem;
+	color: #fff;
+	justify-content: space-between;
+	height: 10px;
+}
+
 .header {
     background: rgb(73, 107, 190);
     padding: 1rem;
