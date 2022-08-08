@@ -126,5 +126,11 @@
 		"description": "",
 		"date": "8/7/22",
 		"links": [] 
+	},
+	{
+		"name": "Droped items have been limited",
+		"description": "There can only be 36 droped items on the ground within a 32x32 area",
+		"date": "8/8/22",
+		"links": [] 
 	}
 ]
