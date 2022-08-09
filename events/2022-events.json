@@ -129,8 +129,14 @@
 	},
 	{
 		"name": "Droped items have been limited",
-		"description": "There can only be 36 droped items on the ground within a 32x32 area",
-		"date": "8/8/22",
+		"description": "There can only be 72 droped items on the ground within a 32x32 area",
+		"date": "8/9/22",
+		"links": [] 
+	},
+	{
+		"name": "Boats can now be placed outside of water",
+		"description": "",
+		"date": "8/9/22",
 		"links": [] 
 	}
 ]
