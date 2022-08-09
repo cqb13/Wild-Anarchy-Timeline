@@ -129,13 +129,19 @@
 	},
 	{
 		"name": "Droped items have been limited",
-		"description": "There can only be 72 droped items on the ground within a 32x32 area",
+		"description": "There can only be 72 droped items on the ground within a 32x32 area.",
 		"date": "8/9/22",
 		"links": [] 
 	},
 	{
 		"name": "Boats can now be placed outside of water",
 		"description": "",
+		"date": "8/9/22",
+		"links": [] 
+	},
+	{
+		"name": "Player cap increased from 25 to 30",
+		"description": "When the previous cap is reached 5 more slots are added.",
 		"date": "8/9/22",
 		"links": [] 
 	}
