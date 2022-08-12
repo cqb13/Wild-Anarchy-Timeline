@@ -144,5 +144,11 @@
 		"description": "When the previous cap is reached 5 more slots are added.",
 		"date": "8/9/22",
 		"links": [] 
+	},
+	{
+		"name": "Server updated to 1.19.2",
+		"description": "",
+		"date": "8/11/22",
+		"links": [] 
 	}
 ]
