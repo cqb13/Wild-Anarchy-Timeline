@@ -162,5 +162,13 @@
 		"description": "",
 		"date": "8/16/22",
 		"links": [] 
+	},
+	{
+		"name": "The server switched to Pufferfish",
+		"description": "Pufferfish is a fork of paper.",
+		"date": "8/18/22",
+		"links": [
+			["Pufferfish info", "docs.pufferfish.host/setup/pufferfish-fork-configuration/"]
+		]
 	}
 ]
