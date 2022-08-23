@@ -1,174 +1,189 @@
 [
-	{
-		"name": "Wild Anarchy was started",
-		"description": "",
-		"date": "6/14/22",
-		"links": [
-			["Discord Server", "discord.gg/qnzJ9YYBc6"],
-			["Timeline Discord", "discord.gg/wgERmZNKsX"]
-		] 
-	},
-	{
-		"name": "Difficulty changed to hard",
-		"description": "",
-		"date": "6/16/22",
-		"links": [] 
-	},
-	{
-		"name": "Luzigno kills the Ender Dragon",
-		"description": "",
-		"date": "6/20/22",
-		"links": [] 
-	},
-	{
-		"name": "Doubleface gets the Dragon egg",
-		"description": "",
-		"date": "6/20/22",
-		"links": [] 
-	},
-	{
-		"name": "Doubleface spawns the first wither",
-		"description": "",
-		"date": "6/20/22",
-		"links": [] 
-	},
-	{
-		"name": "CCD made the first lava cast",
-		"description": "",
-		"date": "6/20/22",
-		"links": [] 
-	},
-	{
-		"name": "CCD steals the dragon egg",
-		"description": "",
-		"date": "6/24/22",
-		"links": [] 
-	},
-	{
-		"name": "/r added, pearl stasis enabled",
-		"description": "",
-		"date": "6/25/22",
-		"links": [] 
-	},
-	{
-		"name": "sleepylessons spotted in WA discord",
-		"description": "",
-		"date": "6/27/22",
-		"links": [] 
-	},
+  {
+    "name": "Wild Anarchy was started",
+    "description": "",
+    "date": "6/14/22",
+    "links": [
+      ["Discord Server", "discord.gg/qnzJ9YYBc6"],
+      ["Timeline Discord", "discord.gg/wgERmZNKsX"]
+    ]
+  },
+  {
+    "name": "Difficulty changed to hard",
+    "description": "",
+    "date": "6/16/22",
+    "links": []
+  },
+  {
+    "name": "Luzigno kills the Ender Dragon",
+    "description": "",
+    "date": "6/20/22",
+    "links": []
+  },
+  {
+    "name": "Doubleface gets the Dragon egg",
+    "description": "",
+    "date": "6/20/22",
+    "links": []
+  },
+  {
+    "name": "Doubleface spawns the first wither",
+    "description": "",
+    "date": "6/20/22",
+    "links": []
+  },
+  {
+    "name": "CCD made the first lava cast",
+    "description": "",
+    "date": "6/20/22",
+    "links": []
+  },
+  {
+    "name": "CCD steals the dragon egg",
+    "description": "",
+    "date": "6/24/22",
+    "links": []
+  },
+  {
+    "name": "/r added, pearl stasis enabled",
+    "description": "",
+    "date": "6/25/22",
+    "links": []
+  },
+  {
+    "name": "sleepylessons spotted in WA discord",
+    "description": "",
+    "date": "6/27/22",
+    "links": []
+  },
 
-    {
-		"name": "WA discord reaches 100 members",
-		"description": "",
-		"date": "7/2/22",
-		"links": [] 
-	},
-	{
-		"name": "Sleepylessons starts managing the server",
-		"description": "",
-		"date": "7/14/22",
-		"links": [] 
-	},
-	{
-		"name": "Player cap increased  from 20 to 25",
-		"description": "",
-		"date": "7/31/22",
-		"links": [] 
-	},
-	{
-		"name": "Farm limiting system implemented",
-		"description": "Mob spawn rates are limited to help with performance. Mob drops are increased to compensate for the lower amount of mobs",
-		"date": "7/31/22",
-		"links": [
-			["Effected mob", "github.com/sleepylessons/NetherAnarchy/wiki/Mob-Limits-List"],
-			["How mob limits work", "github.com/sleepylessons/NetherAnarchy/wiki/How-Mob-Limits-Work"]
-		] 
-	},
+  {
+    "name": "WA discord reaches 100 members",
+    "description": "",
+    "date": "7/2/22",
+    "links": []
+  },
+  {
+    "name": "Sleepylessons starts managing the server",
+    "description": "",
+    "date": "7/14/22",
+    "links": []
+  },
+  {
+    "name": "Player cap increased  from 20 to 25",
+    "description": "",
+    "date": "7/31/22",
+    "links": []
+  },
+  {
+    "name": "Farm limiting system implemented",
+    "description": "Mob spawn rates are limited to help with performance. Mob drops are increased to compensate for the lower amount of mobs",
+    "date": "7/31/22",
+    "links": [
+      [
+        "Effected mob",
+        "github.com/sleepylessons/NetherAnarchy/wiki/Mob-Limits-List"
+      ],
+      [
+        "How mob limits work",
+        "github.com/sleepylessons/NetherAnarchy/wiki/How-Mob-Limits-Work"
+      ]
+    ]
+  },
 
-    {
-		"name": "First nether hub created",
-		"description": "Made by: Ratical01, 86ac, IcatIcatI (cqb13), TableCraftin, and Steal_th",
-		"date": "8/1/22",
-		"links": [] 
-	},
-	{
-		"name": "First nether highway dug and paved",
-		"description": "Made by: IcatIcatI (cqb13)",
-		"date": "8/1/22",
-		"links": [] 
-	},
-	{
-		"name": "First known obsidian farm",
-		"description": "Made by:  SH1TEATIN_GOBLIN",
-		"date": "8/1/22",
-		"links": [] 
-	},
-	{
-		"name": "First map art created",
-		"description": "Made by:  SH1TEATIN_GOBLIN and Darkkk",
-		"date": "8/3/22",
-		"links": [] 
-	},
-	{
-		"name": "All highways have reached 10k nether",
-		"description": "Made by: 87ac",
-		"date": "8/3/22",
-		"links": [] 
-	},
-    {
-		"name": "Goblin SMP was griefed",
-		"description": "",
-		"date": "8/4/22",
-		"links": [] 
-	},
-	{
-		"name": "Randomized MOTDS were added",
-		"description": "",
-		"date": "8/7/22",
-		"links": [] 
-	},
-	{
-		"name": "Droped items have been limited",
-		"description": "There can only be 72 droped items on the ground within a 32x32 area.",
-		"date": "8/9/22",
-		"links": [] 
-	},
-	{
-		"name": "Boats can now be placed outside of water",
-		"description": "",
-		"date": "8/9/22",
-		"links": [] 
-	},
-	{
-		"name": "Player cap increased from 25 to 30",
-		"description": "When the previous cap is reached 5 more slots are added.",
-		"date": "8/9/22",
-		"links": [] 
-	},
-	{
-		"name": "Server updated to 1.19.2",
-		"description": "",
-		"date": "8/11/22",
-		"links": [] 
-	},
-	{
-		"name": "The WA discord reached 200 members",
-		"description": "",
-		"date": "8/13/22",
-		"links": [] 
-	},
-	{
-		"name": "Villager limits are added",
-		"description": "",
-		"date": "8/16/22",
-		"links": [] 
-	},
-	{
-		"name": "The server switched to Pufferfish",
-		"description": "Pufferfish is a fork of paper.",
-		"date": "8/18/22",
-		"links": [
-			["Pufferfish info", "docs.pufferfish.host/setup/pufferfish-fork-configuration/"]
-		]
-	}
+  {
+    "name": "First nether hub created",
+    "description": "Made by: Ratical01, 86ac, IcatIcatI (cqb13), TableCraftin, and Steal_th",
+    "date": "8/1/22",
+    "links": []
+  },
+  {
+    "name": "First nether highway dug and paved",
+    "description": "Made by: IcatIcatI (cqb13)",
+    "date": "8/1/22",
+    "links": []
+  },
+  {
+    "name": "First known obsidian farm",
+    "description": "Made by:  SH1TEATIN_GOBLIN",
+    "date": "8/1/22",
+    "links": []
+  },
+  {
+    "name": "First map art created",
+    "description": "Made by:  SH1TEATIN_GOBLIN and Darkkk",
+    "date": "8/3/22",
+    "links": []
+  },
+  {
+    "name": "All highways have reached 10k nether",
+    "description": "Made by: 87ac",
+    "date": "8/3/22",
+    "links": []
+  },
+  {
+    "name": "Goblin SMP was griefed",
+    "description": "",
+    "date": "8/4/22",
+    "links": []
+  },
+  {
+    "name": "Randomized MOTDS were added",
+    "description": "",
+    "date": "8/7/22",
+    "links": []
+  },
+  {
+    "name": "Droped items have been limited",
+    "description": "There can only be 72 droped items on the ground within a 32x32 area.",
+    "date": "8/9/22",
+    "links": []
+  },
+  {
+    "name": "Boats can now be placed outside of water",
+    "description": "",
+    "date": "8/9/22",
+    "links": []
+  },
+  {
+    "name": "Player cap increased from 25 to 30",
+    "description": "When the previous cap is reached 5 more slots are added.",
+    "date": "8/9/22",
+    "links": []
+  },
+  {
+    "name": "Server updated to 1.19.2",
+    "description": "",
+    "date": "8/11/22",
+    "links": []
+  },
+  {
+    "name": "The WA discord reached 200 members",
+    "description": "",
+    "date": "8/13/22",
+    "links": []
+  },
+  {
+    "name": "Villager limits are added",
+    "description": "",
+    "date": "8/16/22",
+    "links": []
+  },
+  {
+    "name": "The server switched to Pufferfish",
+    "description": "Pufferfish is a fork of paper.",
+    "date": "8/18/22",
+    "links": [
+      [
+        "Pufferfish info",
+        "docs.pufferfish.host/setup/pufferfish-fork-configuration/"
+      ]
+    ]
+  },
+  {
+    "name": "New nether speed limit was implemented",
+    "description": "If you are moving on the nether roof (5bps +) your simulation distance will be reduced. If you stop moving your simulation distance will be restored.",
+    "date": "8/23/22",
+    "links": []
+  }
 ]
