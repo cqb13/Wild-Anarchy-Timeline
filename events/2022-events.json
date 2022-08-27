@@ -181,9 +181,15 @@
     ]
   },
   {
-    "name": "New nether speed limit was implemented",
+    "name": "a new nether speed limit was implemented",
     "description": "If you are moving on the nether roof (5bps +) your simulation distance will be reduced. If you stop moving your simulation distance will be restored.",
     "date": "8/23/22",
+    "links": []
+  },
+  {
+    "name": "The server moved hosts!",
+    "description": "",
+    "date": "8/27/22",
     "links": []
   }
 ]
