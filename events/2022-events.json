@@ -191,5 +191,11 @@
     "description": "",
     "date": "8/27/22",
     "links": []
+  },
+  {
+    "name": "Donations have been opened",
+    "description": "",
+    "date": "8/28/22",
+    "links": [["Donate", "https://wild-anarchy.tebex.io/"]]
   }
 ]
