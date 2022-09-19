@@ -4,8 +4,8 @@
     "description": "",
     "date": "6/14/22",
     "links": [
-      ["Discord Server", "discord.gg/qnzJ9YYBc6"],
-      ["Timeline Discord", "discord.gg/wgERmZNKsX"]
+      ["Discord Server", "https://discord.gg/qnzJ9YYBc6"],
+      ["Timeline Discord", "https://discord.gg/wgERmZNKsX"]
     ]
   },
   {
@@ -82,11 +82,11 @@
     "links": [
       [
         "Effected mob",
-        "github.com/sleepylessons/NetherAnarchy/wiki/Mob-Limits-List"
+        "https://github.com/sleepylessons/NetherAnarchy/wiki/Mob-Limits-List"
       ],
       [
         "How mob limits work",
-        "github.com/sleepylessons/NetherAnarchy/wiki/How-Mob-Limits-Work"
+        "https://github.com/sleepylessons/NetherAnarchy/wiki/How-Mob-Limits-Work"
       ]
     ]
   },
@@ -176,7 +176,7 @@
     "links": [
       [
         "Pufferfish info",
-        "docs.pufferfish.host/setup/pufferfish-fork-configuration/"
+        "https://docs.pufferfish.host/setup/pufferfish-fork-configuration/"
       ]
     ]
   },
@@ -216,11 +216,17 @@
     "description": "",
     "date": "9/12/22",
     "links": []
-  }
+  },
   {
     "name": "Velocity's first base was griefed",
     "description": "",
     "date": "9/14/22",
     "links": []
+  },
+  {
+    "name": "The servers website gets an update!",
+    "description": "All players now get there own profile on the website. The players stats such as, kills, deaths and totem pops are displayed on the website!",
+    "date": "9/18/22",
+    "links": [["Website", "https://wildanarchy.org"]]
   }
 ]

@@ -124,15 +124,14 @@ function loadedData(data) {
 						 "leftDate" : "rightDate")
 
 		// generate html code for links section
-		links = "<h3>"
-		e["links"].forEach(function(link){
-			links += "<span><a href=\"https://" + link[1] + "\">" + 
-					 link[0] + "</a></span>";
+		links = "<h3>";
+		e["links"].forEach(function (link) {
+		  links += '<span><a href="' + link[1] + '">' + link[0] + "</a></span>";
 		});
-		if (e["links"].length == 0) {
-			links += "None";
-		}
 		links += "</h3>";
+		if (e["links"].length == 0) {
+		  links = "";
+		}
 
 		dividerYearElem = false;
 		dividerMonthElem = false;
