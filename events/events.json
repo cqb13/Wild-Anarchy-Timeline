@@ -1,6 +1,7 @@
 [
   {
     "name": "Wild Anarchy was started",
+    "image": "",
     "description": "",
     "date": "6/14/22",
     "links": [
@@ -10,48 +11,56 @@
   },
   {
     "name": "Difficulty changed to hard",
+    "image": "",
     "description": "",
     "date": "6/16/22",
     "links": []
   },
   {
     "name": "Luzigno kills the Ender Dragon",
+    "image": "",
     "description": "",
     "date": "6/20/22",
     "links": []
   },
   {
     "name": "Doubleface gets the Dragon egg",
+    "image": "",
     "description": "",
     "date": "6/20/22",
     "links": []
   },
   {
     "name": "Doubleface spawns the first wither",
+    "image": "",
     "description": "",
     "date": "6/20/22",
     "links": []
   },
   {
     "name": "CCD made the first lava cast",
+    "image": "",
     "description": "",
     "date": "6/20/22",
     "links": []
   },
   {
     "name": "CCD steals the dragon egg",
+    "image": "",
     "description": "",
     "date": "6/24/22",
     "links": []
   },
   {
     "name": "/r added, pearl stasis enabled",
+    "image": "",
     "description": "",
     "date": "6/25/22",
     "links": []
   },
   {
     "name": "sleepylessons spotted in WA discord",
+    "image": "",
     "description": "",
     "date": "6/27/22",
     "links": []
@@ -59,24 +68,28 @@
 
   {
     "name": "WA discord reaches 100 members",
+    "image": "",
     "description": "",
     "date": "7/2/22",
     "links": []
   },
   {
     "name": "Sleepylessons starts managing the server",
+    "image": "",
     "description": "",
     "date": "7/14/22",
     "links": []
   },
   {
     "name": "Player cap increased  from 20 to 25",
+    "image": "",
     "description": "",
     "date": "7/31/22",
     "links": []
   },
   {
     "name": "Farm limiting system implemented",
+    "image": "",
     "description": "Mob spawn rates are limited to help with performance. Mob drops are increased to compensate for the lower amount of mobs",
     "date": "7/31/22",
     "links": [
@@ -93,84 +106,98 @@
 
   {
     "name": "First nether hub created",
+    "image": "",
     "description": "Made by: Ratical01, 86ac, IcatIcatI (cqb13), TableCraftin, and Steal_th",
     "date": "8/1/22",
     "links": []
   },
   {
     "name": "First nether highway dug and paved",
+    "image": "",
     "description": "Made by: IcatIcatI (cqb13)",
     "date": "8/1/22",
     "links": []
   },
   {
     "name": "First known obsidian farm",
+    "image": "",
     "description": "Made by:  SH1TEATIN_GOBLIN",
     "date": "8/1/22",
     "links": []
   },
   {
     "name": "First map art created",
+    "image": "",
     "description": "Made by:  SH1TEATIN_GOBLIN and Darkkk",
     "date": "8/3/22",
     "links": []
   },
   {
     "name": "All highways have reached 10k nether",
+    "image": "",
     "description": "Made by: 87ac",
     "date": "8/3/22",
     "links": []
   },
   {
     "name": "Goblin SMP was griefed",
+    "image": "",
     "description": "",
     "date": "8/4/22",
     "links": []
   },
   {
     "name": "Randomized MOTDS were added",
+    "image": "",
     "description": "",
     "date": "8/7/22",
     "links": []
   },
   {
     "name": "Droped items have been limited",
+    "image": "",
     "description": "There can only be 72 droped items on the ground within a 32x32 area.",
     "date": "8/9/22",
     "links": []
   },
   {
     "name": "Boats can now be placed outside of water",
+    "image": "",
     "description": "",
     "date": "8/9/22",
     "links": []
   },
   {
     "name": "Player cap increased from 25 to 30",
+    "image": "",
     "description": "When the previous cap is reached 5 more slots are added.",
     "date": "8/9/22",
     "links": []
   },
   {
     "name": "Server updated to 1.19.2",
+    "image": "",
     "description": "",
     "date": "8/11/22",
     "links": []
   },
   {
     "name": "The WA discord reached 200 members",
+    "image": "",
     "description": "",
     "date": "8/13/22",
     "links": []
   },
   {
     "name": "Villager limits are added",
+    "image": "",
     "description": "",
     "date": "8/16/22",
     "links": []
   },
   {
     "name": "The server switched to Pufferfish",
+    "image": "",
     "description": "Pufferfish is a fork of paper.",
     "date": "8/18/22",
     "links": [
@@ -182,24 +209,28 @@
   },
   {
     "name": "a new nether speed limit was implemented",
+    "image": "",
     "description": "If you are moving on the nether roof (5bps +) your simulation distance will be reduced. If you stop moving your simulation distance will be restored.",
     "date": "8/23/22",
     "links": []
   },
   {
     "name": "Venom force's main base was griefed",
+    "image": "",
     "description": "",
     "date": "8/23/22",
     "links": []
   },
   {
     "name": "The server moved hosts!",
+    "image": "",
     "description": "",
     "date": "8/27/22",
     "links": []
   },
   {
     "name": "Donations have been opened",
+    "image": "",
     "description": "",
     "date": "8/28/22",
     "links": [["Donate", "https://wild-anarchy.tebex.io/"]]
@@ -207,24 +238,35 @@
 
   {
     "name": "All end gateways have been opened",
+    "image": "",
     "description": "The last end gate on the main end island was opened by MaxTheHax_",
     "date": "9/6/22",
     "links": []
   },
   {
     "name": "The server now has daily reboots",
+    "image": "",
     "description": "",
     "date": "9/12/22",
     "links": []
   },
   {
     "name": "Velocity's first base was griefed",
+    "image": "",
     "description": "",
     "date": "9/14/22",
     "links": []
   },
   {
+    "name": "IcatIcatI steps down as timeline owner",
+    "image": "",
+    "description": "somone takes over the Wild Anarchy Timeline discord server. The timeline website is still managed by IcatIcatI.",
+    "date": "9/15/22",
+    "links": []
+  },
+  {
     "name": "The servers website gets an update!",
+    "image": "",
     "description": "All players now get there own profile on the website. The players stats such as, kills, deaths and totem pops are displayed on the website!",
     "date": "9/18/22",
     "links": [["Website", "https://wildanarchy.org"]]
