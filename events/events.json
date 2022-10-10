@@ -270,5 +270,34 @@
     "description": "All players now get there own profile on the website. The players stats such as, kills, deaths and totem pops are displayed on the website!",
     "date": "9/18/22",
     "links": [["Website", "https://wildanarchy.org"]]
+  },
+  {
+    "name": "Soft limits for mobs have been added",
+    "image": "",
+    "description": "Big chages to cullings",
+    "date": "9/21/22",
+    "links": [["Mob limits config", "https://github.com/crimenoodle/WildAnarchy/wiki/Mob-Limits-List"]]
+  },
+  {
+    "name": "Issues with speed limit are fixed",
+    "image": "",
+    "description": "Boats on ice can now go over 40bps, boats on blue ise can go 72bps.",
+    "date": "9/26/22",
+    "links": [["Speed limit config", "https://discord.com/channels/986346949781372958/991641566399709214/1024119404239265793"]]
+  },
+  {
+    "name": "Big change to speed limit!",
+    "image": "",
+    "description": "Walking speed reduced from 16 to 12bps, elytra speed increased.",
+    "date": "9/27/22",
+    "links": [["Speed limit config", "https://discord.com/channels/986346949781372958/991641566399709214/1024406651404554370"]]
+  },
+
+  {
+    "name": "Anvil colored rename removed",
+    "image": "",
+    "description": "",
+    "date": "10/4/22",
+    "links": []
   }
 ]
